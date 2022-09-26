@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: yellow;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 45%;
+    margin-left: 52%;
+    
+
+}
+#logo{
+    /* display: none; */
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: giloroy;
+    position: absolute;
+
+}
